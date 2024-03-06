@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 2000px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <input type="text" value="sagar" size="20" />
+    </form>
+    <form>
+      <h2>Radio Button</h2>
+      <input type="radio" name="gender" /><label>Male</label>
+      <input name="gender" type="radio" /><label>Female</label>
+    </form>
+
+    <form>
+      <h2>Range</h2>
+      <input type="range" min="0" max="100" value="12" step="1" />
+      <h2>Progress</h2>
+      <progress value="30" max="100">50%</progress>
+    </form>
+    <form>
+      <h2>Week</h2>
+      <input type="week" />
+    </form>
+    <form>
+      <h2>time</h2>
+      <input type="time" />
+    </form>
+    <form>
+      <h2>number</h2>
+      <input type="number" />
+    </form>
+    <form>
+      <h2>Data List with Input Element</h2>
+      <input list="users" />
+
+      <datalist id="users">
+        <option>sagar</option>
+        <option>raj</option>
+        <option>shiva</option>
+        <option>rutuja</option>
+        <option>rani</option>
+        <option>aditya</option>
+      </datalist>
+    </form>
+    <form>
+      <h2>DropDown</h2>
+      <select>
+        <option>Select the City</option>
+        <option>Mumbai</option>
+        <option>Hyderabad</option>
+        <option>Pune</option>
+        <option>Banglore</option>
+        <option>Delhi</option>
+      </select>
+
+      <select>
+        <optgroup label="Programming Language">
+          <option>Java</option>
+          <option>C#</option>
+          <option>Javascript</option>
+          <option>Typescript</option>
+        </optgroup>
+        <optgroup label="Framework">
+          <option>Spring</option>
+          <option>Asp.net</option>
+          <option>Angular</option>
+          <option>Vue JS</option>
+        </optgroup>
+      </select>
+    </form>
+
+    <form>
+      <h2>Text Area</h2>
+      <textarea cols="50" rows="10"> </textarea>
+    </form>
+
+    <form action="path" method="delete">
+      <h2>Button</h2>
+      <input placeholder="Username" />
+      <input type="email" placeholder="Email id" />
+      <input type="button" value="Login" />
+      <button>Sign Up</button>
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
