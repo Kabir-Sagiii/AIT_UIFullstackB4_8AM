@@ -1,0 +1,8 @@
+.container {
+  width: 800px;
+  height: 400px;
+  border: 2px solid green;
+  margin: 50px auto;
+  display: grid;
+  grid-template-rows: 50px 150px 150px 50px;
+}
