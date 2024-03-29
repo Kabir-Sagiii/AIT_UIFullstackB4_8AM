@@ -1,0 +1,47 @@
+@keyframes DivAnimation {
+  0% {
+    background-image: url("https://image.freepik.com/free-photo/attractive-female-enjoying-shopping_1163-1851.jpg");
+    background-position: center;
+    background-size: 1100px 400px;
+    background-repeat: no-repeat;
+  }
+  25% {
+    background-image: url("https://wallpapercave.com/wp/wp6488868.jpg");
+    background-position: center;
+    background-size: 1100px 400px;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background-image: url("https://thumbs.dreamstime.com/z/woman-shopping-young-happy-female-carrying-bags-walking-modern-shopping-mall-high-resolution-woman-shopping-female-walking-116196128.jpg");
+    background-position: center;
+    background-size: 1100px 400px;
+    background-repeat: no-repeat;
+  }
+  75% {
+    background-image: url("https://thumbs.dreamstime.com/z/side-view-portrait-two-beautiful-women-shopping-center-looking-window-displays-store-smiling-choosing-clothes-102809078.jpg");
+    background-position: center;
+    background-size: 1100px 400px;
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    background-image: url("https://thumbs.dreamstime.com/b/happy-young-woman-posing-shopping-mall-happy-young-smiling-woman-posing-shopping-mall-109544783.jpg");
+    background-position: center;
+    background-size: 1100px 400px;
+    background-repeat: no-repeat;
+  }
+}
+.container {
+  width: 1100px;
+  height: 400px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px black;
+  background-color: lightgray;
+  animation-name: DivAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+  animation-delay: 2s;
+  /* animation-fill-mode: both; */
+  animation-direction: alternate-reverse;
+  /* animation-timing-function: ; */
+}

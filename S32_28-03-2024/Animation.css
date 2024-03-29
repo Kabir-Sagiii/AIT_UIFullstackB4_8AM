@@ -1,0 +1,58 @@
+@keyframes basicanimation {
+  from {
+    background-color: lightcoral;
+    /* width: 100px; */
+    /* position: relative;
+    left: 800px; */
+  }
+
+  to {
+    background-color: black;
+    color: white;
+    /* position: relative;
+    right: 300px; */
+    /* width: 800px; */
+  }
+}
+
+@keyframes myanimation {
+  0% {
+    /* background-color: lightcyan; */
+    background-image: url("https://d1yn1kh78jj1rr.cloudfront.net/image/preview/rDtN98Qoishumwih/810-8985-176_PM.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  30% {
+    background-image: url("https://thumbs.dreamstime.com/b/beautiful-young-woman-shopping-fruits-vegetables-produce-department-grocery-store-supermarket-color-toned-image-37628405.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  60% {
+    background-image: url("https://th.bing.com/th/id/OIP.0E2rT394d7tQ9MymGH8mTgHaE8?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  90% {
+    background-image: url("https://wallpapercave.com/wp/wp6488829.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  100% {
+    background-image: url("https://th.bing.com/th/id/OIP.oL6gUjxDGe50rtfzxIPmrwHaE8?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: 100% 100%;
+  }
+}
+
+div {
+  width: 1200px;
+  height: 450px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 0 10px black;
+  animation-name: myanimation;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
