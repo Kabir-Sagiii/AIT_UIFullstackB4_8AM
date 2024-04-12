@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .container {
+        /* border: 2px solid red; */
+        width: 80%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        gap: 10px;
+      }
+      .card {
+        width: 100%;
+        padding: 3px;
+        /* border: 2px solid green; */
+        box-shadow: 0 0 10px black;
+      }
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        .container {
+          /* border: 2px solid red; */
+          width: 80%;
+          margin: 30px auto;
+          display: grid;
+          grid-template-columns: 80%;
+        }
+      }
+      @media screen and (min-width: 601px) and (max-width: 800px) {
+        .container {
+          /* border: 2px solid red; */
+          width: 80%;
+          margin: 30px auto;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          gap: 20px;
+        }
+      }
+
+      @media screen and (orientation: portrait) {
+        .container {
+          /* border: 2px solid red; */
+          width: 80%;
+          margin: 30px auto;
+          display: grid;
+          grid-template-columns: 100%;
+          row-gap: 60px;
+        }
+      }
+      @media screen and (orientation: landscape) {
+        .container {
+          /* border: 2px solid red; */
+          width: 80%;
+          margin: 30px auto;
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div style="background-color: blue">Col 1</div>
+      <div style="background-color: red">Col 1</div>
+      <div style="background-color: purple">Col 1</div>
+      <div style="background-color: blanchedalmond">Col 1</div> -->
+      <div class="card">
+        <img
+          src="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg"
+          width="100%"
+          height="200"
+        />
+        <h3>Raj Verma</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          exercitationem.
+        </p>
+        <button>Profile</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg"
+          width="100%"
+          height="200"
+        />
+        <h3>Raj Verma</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          exercitationem.
+        </p>
+        <button>Profile</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg"
+          width="100%"
+          height="200"
+        />
+        <h3>Raj Verma</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          exercitationem.
+        </p>
+        <button>Profile</button>
+      </div>
+      <div class="card">
+        <img
+          src="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg"
+          width="100%"
+          height="200"
+        />
+        <h3>Raj Verma</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          exercitationem.
+        </p>
+        <button>Profile</button>
+      </div>
+    </div>
+  </body>
+</html>

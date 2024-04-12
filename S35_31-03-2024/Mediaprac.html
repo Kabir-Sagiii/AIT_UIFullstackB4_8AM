@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+      }
+      @media screen and (min-width: 0px) and (max-width: 578px) {
+        .container {
+          width: 80%;
+          display: grid;
+          grid-template-columns: 100%;
+          margin: auto;
+        }
+      }
+      @media screen and (min-width: 579px) and (max-width: 719px) {
+        .container {
+          width: 90%;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          margin: auto;
+        }
+      }
+      @media screen and (min-width: 720px) and (max-width: 920px) {
+        .container {
+          width: 90%;
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+          margin: auto;
+        }
+      }
+      @media screen and (orientation: portrait) {
+        .container {
+          width: 90%;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: 100px 100px;
+          margin: auto;
+        }
+      }
+      @media screen and (orientation: landscape) {
+        .container {
+          width: 90%;
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          grid-template-rows: 100px 100px 100px 100px;
+          margin: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="background-color: red">Col 1</div>
+      <div style="background-color: black">Col 2</div>
+      <div style="background-color: blue">Col 3</div>
+      <div style="background-color: aqua">Col 4</div>
+    </div>
+  </body>
+</html>
